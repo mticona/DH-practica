@@ -1,0 +1,53 @@
+
+body{
+    background-image: url(../images/bg-body.png);
+    margin: 0%;
+}
+
+header{
+    width: 960px;
+    overflow: hidden;
+    position: fixed;
+}
+nav{
+    position: relative;
+    color: white;
+}
+.nav-derecha{
+    float:right;
+    margin-right: 10%;
+}
+
+.nav-izquierda{
+    float:left;
+    margin-left: 10%;
+}
+.red-box{
+    position: relative;
+    background-color: brown;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.centrar{
+    margin: auto;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+    
+li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul{
+    display: inline-block;
+
+
+}
+
+
