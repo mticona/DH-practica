@@ -1,5 +1,5 @@
 <?php
-class Persona{
+class Alumne{
   private $nombre;
   private $apellido;
   private $codigo;
@@ -25,6 +25,6 @@ class Persona{
   }
   public function getCodigo(){
       return $this->codigo;
-  }  
+  }
 
 }

@@ -30,7 +30,7 @@ abstract class Profesore{
   }
   public function getCodigo(){
       return $this->codigo;
-  }  
+  }
   public function getAntiguedad(){
       return $this->antiguedad;
   }

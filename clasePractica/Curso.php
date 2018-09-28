@@ -7,9 +7,10 @@ class Curso{
   private $capacidad;
   private $inscriptes[];
 
-  public function __construct(string $nombre, int $codigo){
+  public function __construct(string $nombre, int $codigo, int $cupoMaximo){
     $this->nombre = $nombre;
     $this->codigo = $codigo;
+    $this->capacidad = $cupoMaximo
   }
   public function setNombre($nombre){
       $this->nombre = $nombre;
@@ -19,26 +20,26 @@ class Curso{
   }
   public function getNombre(){
       return $this->nombre;
-  } 
+  }
   public function getCodigo(){
       return $this->codigo;
   }
   public function getTitular(){
       return $this->titular;
-  } 
+  }
   public function getAdjunte(){
       return $this->adjunte;
-  } 
+  }
   public function listarAlumnes(){
       return $this->inscriptes;
-  }  
+  }
   public function addAlumne(Alumne $a){
       if($a instanceOff Alumne){
-	array_push($inscriptes, $a);
-	return true;
+	       array_push($inscriptes, $a);
+	        return true;
       }else{
-      	return false; 
+      	return false;
       }
-  } 
+  }
 
 }

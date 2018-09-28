@@ -5,7 +5,7 @@ class ProfesoreTitular{
     parent::__construct(string $nombre, string $apellido, int $codigo);
     $this->especialidad = $especialidad
   }
- 
+
   public function getEspecialidad(){
       return $this->especialidad;
   }
